@@ -1,0 +1,4 @@
+<launch>
+  <param name="points_num" value="5"/>
+  <node name="reducer_node" pkg="line_finder" type="main.py"/>
+</launch>
